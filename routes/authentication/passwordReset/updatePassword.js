@@ -35,7 +35,7 @@ updatePasswordRouter.post("/", async (req,res) => {
 
         
     } catch (error) {
-        res.send({msg : "Email not found.", code : 0});
+        res.send({msg : "Link expired.", code : 0});
     }
     
 })
